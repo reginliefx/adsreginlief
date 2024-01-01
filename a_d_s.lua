@@ -62,7 +62,7 @@ _G.Settings = {
     Autoraid = false,
     kickrejoin = false
 }
-local a = "Shiina Hub"
+local a = "Reginlief"
 local b = "AnimeDimension.lua"
 function saveSettings()
     local c = game:GetService("HttpService")
@@ -203,7 +203,7 @@ local r = {"Easy", "Hard", "Nightmare", "Infinite"}
 local s = {"Capsule Series 1", "Raid Capsule", "Gear 5 Fluffy Capsule", "Esper Capsule"}
 local t = {"Tengoku Raid", "Hirito Raid", "Titan Raid", "Esper Raid", "Demon Lord Raid", "Yomiichi Raid", "Christmas Raid", "Combat Titan Raid", "Infinity Nojo Raid", "Gear 5 Fluffy Raid", "Nardo Beast Raid", "Cursed Sage Raid", "Red Emperor Raid", "Tengu Raid", "Vio Raid", "Ichini Fullbring Raid", "Tanjiro Sun God Raid","Black Pasta Raid","Cosmic Wolfman Raid"}
 local u = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
-local v = u:MakeWindow({Name = "Shiina Hub", HidePremium = true})
+local v = u:MakeWindow({Name = "Reginlief", HidePremium = true})
 local w = v:MakeTab({Name = "Main", PremiumOnly = false})
 local x = v:MakeTab({Name = "Extra", PremiumOnly = false})
 local D = v:MakeTab({Name = "TP Method", PremiumOnly = false})
@@ -2005,8 +2005,8 @@ w:AddLabel("‼️ Auto Lvl + Raid + Boss Rush ")
 w:AddLabel("‼️ Specific + Raid + Boss Rush ")
 w:AddLabel("‼️ Trial + Raid + Boss Rush ")
 G:AddButton(
-    {Name = "Script by Shiina Hub", Callback = function()
-            setclipboard("Shiina Hub")
+    {Name = "Script by Reginlief", Callback = function()
+            setclipboard("Reginlief")
         end}
 )
 G:AddButton(
