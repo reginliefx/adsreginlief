@@ -182,7 +182,8 @@ local p = {
     "Esper",
     "Astolfo Summer Character",
     "Black Pasta",
-    "Cosmic Wolfman"
+    "Cosmic Wolfman",
+    "Joto"
 }
 local q = {
 	"Halloween Dimension",
