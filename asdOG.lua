@@ -1952,7 +1952,7 @@ E:AddToggle(
                         end
                         for m, n in pairs(
                             getconnections(
-                                game.Players.LocalPlayer.PlayerGui.UniversalGui.UniversalCenterUIFrame.SlotsHolder.SkillAssist2.MouseButton1Click
+                                game.Players.LocalPlayer.PlayerGui.UniversalGui.UniversalCenterUIFrame.SlotsHolder.SkillFruit1.MouseButton1Click
                             )
                         ) do
                             n:Fire()
@@ -1979,7 +1979,7 @@ E:AddToggle(
                         end
                         for m, n in pairs(
                             getconnections(
-                                game.Players.LocalPlayer.PlayerGui.UniversalGui.UniversalCenterUIFrame.SlotsHolder.SkillAssist2.MouseButton1Click
+                                game.Players.LocalPlayer.PlayerGui.UniversalGui.UniversalCenterUIFrame.SlotsHolder.SkillFruit2.MouseButton1Click
                             )
                         ) do
                             n:Fire()
