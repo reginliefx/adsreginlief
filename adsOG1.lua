@@ -37,6 +37,7 @@ _G.Settings = {
     custommapselect = "None",
     webhookspeed = "10",
     AutoFarm = true,
+    Retry = false,
     AutoTP = false,
     AutoTP1 = false,
     AutoTP2 = true,
