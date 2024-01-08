@@ -808,14 +808,11 @@ w:AddToggle(
             task.spawn(
                 function()
                     while task.wait(4) do
-                        if not __G.Settings.Retry then
+                        if not _G.Settings.Autoboss then
                             break
                         end
-                        local args = {
-                                    [1] = "RetryDungeon"
-                                }
-                                game:GetService("ReplicatedStorage").RemoteEvents.MainRemoteEvent:FireServer(unpack(args))
-                            end)
+                        game:GetService("ReplicatedStorage").RemoteFunctions.MainRemoteFunction:InvokeServer(
+                            "RetryDungeon"
                         )
                     end
                 end
