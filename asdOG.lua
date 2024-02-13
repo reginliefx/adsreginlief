@@ -184,7 +184,8 @@ local p = {
     "Black Pasta",
     "Cosmic Wolfman",
     "Joto",
-    "King of Curses"
+    "King of Curses",
+    "Warlord"
 	
 }
 local q = {
@@ -204,7 +205,7 @@ local q = {
 }
 local r = {"Easy", "Hard", "Nightmare", "Infinite"}
 local s = {"Capsule Series 1", "Raid Capsule", "Gear 5 Fluffy Capsule", "Esper Capsule"}
-local t = {"Tengoku Raid", "Hirito Raid", "Titan Raid", "Esper Raid", "Demon Lord Raid", "Yomiichi Raid", "Christmas Raid", "Combat Titan Raid", "Infinity Nojo Raid", "Gear 5 Fluffy Raid", "Nardo Beast Raid", "Cursed Sage Raid", "Red Emperor Raid", "Tengu Raid", "Vio Raid", "Ichini Fullbring Raid", "Tanjiro Sun God Raid", "Black Pasta Raid", "Cosmic Wolfman Raid", "Joto Raid","King of Curses Raid"}
+local t = {"Tengoku Raid", "Hirito Raid", "Titan Raid", "Esper Raid", "Demon Lord Raid", "Yomiichi Raid", "Christmas Raid", "Combat Titan Raid", "Infinity Nojo Raid", "Gear 5 Fluffy Raid", "Nardo Beast Raid", "Cursed Sage Raid", "Red Emperor Raid", "Tengu Raid", "Vio Raid", "Ichini Fullbring Raid", "Tanjiro Sun God Raid", "Black Pasta Raid", "Cosmic Wolfman Raid", "Joto Raid","King of Curses Raid","Warlord Raid"}
 local u = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 local v = u:MakeWindow({Name = "Reginlief", HidePremium = true})
 local w = v:MakeTab({Name = "Main", PremiumOnly = false})
